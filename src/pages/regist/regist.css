@@ -1,0 +1,45 @@
+.ri_wrap{
+    position: relative;
+}
+.ri_wrap_inpwrap{
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding: 0 0.3rem;
+    font-size: 0.32rem;
+    background: #fff;
+}
+.ri_wrap_inpwrap p{
+    width: 1.7rem;
+    height: 0.88rem;
+    margin-right: 5px;
+    line-height: 0.88rem;
+}
+.ri_wrap_inpwrap input{
+    display: block;
+    height: 0.88rem;
+}
+.ri_wrap_inpwrap .iconfont{
+    position: absolute;
+    height: 100%;
+    right: 0.2rem;
+    line-height: 0.88rem;
+    font-size: 0.32rem;
+}
+.ri_wrap_inpwrap_pass .iconfork{
+    right: 0.8rem;
+}
+.ri_get_code{
+    font-size: 0.24rem;
+}
+.rg_checkcode{
+    position: absolute;
+    right: 0.26rem;
+    top: 0.3rem;
+    z-index: 9;
+    color: #108ee9;
+}
+.rg_regbtn{
+    width: 60%;
+    margin: 1rem auto 0 auto;
+}
