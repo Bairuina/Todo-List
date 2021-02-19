@@ -4,7 +4,7 @@
     background: #fff;
 }
 .pi_header{
-    padding-top: 0.1rem;
+    padding-top: 0.25rem;
 }
 .pi_header_avatar{
     width: 0.8rem;
@@ -31,7 +31,7 @@
     color: #ccc;
 }
 .pi_con{
-    margin: 0.2rem 0;
+    margin: 0.2rem;
 }
 .pi_imgwrap{
     margin: 0.2rem 0;
@@ -51,18 +51,18 @@
 }
 .pi_support{
     height: 0.6rem;
-    border-top: 1px solid #efefef;
+    border-top: 1px solid #efefefa6;
 }
 .pi_support_item{
     width: 33%;
-    padding-left: 0.36rem;
+    text-align: center;
 }
 .pi_support_item .iconfont{
     font-size: 0.32rem;
     margin-right: 0.1rem;
 }
 .pi_support_item.pi_support_item_active{
-    color: #FE7C12;
+    color: #5d8ef9;
 }
 .pi_support_item .icondianzan1{
     font-size: 0.4rem;

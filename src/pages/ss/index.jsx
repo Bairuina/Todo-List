@@ -108,7 +108,6 @@ class Ss extends Component {
             <input type="file" className='ss_add_img_wrap_input' onChange={this.selectImg} accept="image/*" />
           </div>
         </div>
-
         <Button onClick={this.addSs} className="ss_add_ss_submit" type="primary">发表</Button>
       </div>
     );

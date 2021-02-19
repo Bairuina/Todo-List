@@ -122,11 +122,6 @@ class Home extends Component {
           </div>
           <HotSearch onFocus={this.handleOnFocus} />
           <i onClick={this.addSS} className={'iconfont iconjiahao'}></i>
-
-          {/*<div className={'ho_input_wrap flex-one flex flex-item'}>*/}
-          {/*  <input className={'flex-one'} onFocus={this.handleOnFocus} type="text" placeholder={'您要搜索的内容'}/>*/}
-          {/*  <i className={'p_icon iconfont iconsousuo'}></i>*/}
-          {/*</div>*/}
         </div>
 
         <div className={'ho_list'}>

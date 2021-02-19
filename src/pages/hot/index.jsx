@@ -65,8 +65,10 @@ class Hot extends Component {
     return (
 
       <div className={'hot_search'}>
-
-        <div className={'hs_header flex flex-item'}>
+        <div className={'ho_header flex flex-item'}>
+          <div className={'ho_logo'}>
+            <img src={require('../../static/img/logo/logo.png')} alt="" />
+          </div>
           <HotInput onFocus={this.handleOnFocus} onChange={this.handleOnchange} />
           <span onClick={this.handleSubmit} className={this.state.searchValue?'hs_search hs_search_active':'hs_search' }>搜索</span>
         </div>
@@ -86,13 +88,7 @@ class Hot extends Component {
               </p>)
             })
           }
-          {/* <p>科比</p>
-          <p>张亚昌</p>
-          <p>成功</p>
-          <p>目标</p>
-          <p>javaScript设计模式</p> */}
         </div>
-
         <div className={'hs_title'}>
           <p className={'hs_title_title flex'}>
             <span>热门搜索</span>
@@ -100,11 +96,9 @@ class Hot extends Component {
         </div>
 
         <div className={'hs_history flex hs_hot_history'}>
-          <p>搜索内容</p>
-          <p>66万奔驰</p>
-          <p>商品类</p>
-          <p>淘宝</p>
+          <p>易烊千玺</p>
           <p>京东</p>
+          <p>毕业季</p>
         </div>
 
       </div>

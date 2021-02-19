@@ -25,7 +25,7 @@
 .hs_title_title{
     justify-content: space-between;
     padding-top: 0.3rem;
-    font-size: 0.36rem;
+    font-size: 0.3rem;
     font-weight: bold;
 }
 .hs_title_title .iconziyuan{
@@ -45,12 +45,12 @@
     border-radius: 0.08rem;
     background: #F5F5F5;
 }
-.hs_hot_history p{
+/* .hs_hot_history p{
     width: 40%;
     border-left: 1px solid #efefef;
     border-right: 1px solid #efefef;
     background: none;
-}
+} */
 
 
 

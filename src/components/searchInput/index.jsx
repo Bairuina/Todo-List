@@ -22,7 +22,7 @@ class SearchInp extends Component {
   render() {
     return (
       <div className={'ho_input_wrap flex-one flex flex-item'}>
-        <input className={'flex-one'} onFocus={this.handleOnFocus} onBlur={this.handleOnBlur} onChange={this.handleChange} defaultValue={this.props.searchValue} type="text" placeholder={'您要搜索的内容'}/>
+        <input className={'flex-one'} onFocus={this.handleOnFocus} onBlur={this.handleOnBlur} onChange={this.handleChange} defaultValue={this.props.searchValue} type="text" placeholder={'搜点感兴趣的......'}/>
         <i className={'p_icon iconfont iconsousuo'}></i>
     </div>
     );

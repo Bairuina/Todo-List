@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './planItem.css'
-import { withRouter } from 'react-router-dom';  // 吊啊 这个方法可以在这里获取到 props 上面的router
+import { withRouter } from 'react-router-dom';  // 这个方法可以在这里获取到 props 上面的router
 import config from '../../config/config'
 import ZERO from '../../config/zero';
 import { postSsLike, deleteSsLike } from '../../config/utils'
@@ -129,15 +129,6 @@ class PlanItem extends Component {
             )}
           </div>)
         }
-        {/* <div className={'pi_imgwrap flex'}> */}
-        {/*<div className={'pi_img_one'}>*/}
-
-        {/* <img src={require('../../static/img/home/download1.jpg')} alt="" />
-          <img src={require('../../static/img/home/download.jpg')} alt="" />
-          <img src={require('../../static/img/home/download2.jpg')} alt="" />
-          <img src={require('../../static/img/home/download2.jpg')} alt="" />
-        </div> */}
-
         <div className={'pi_support flex flex-center'}>
           <div className={'pi_support_item'}>
             <i className={'iconfont iconyanjing3'} />

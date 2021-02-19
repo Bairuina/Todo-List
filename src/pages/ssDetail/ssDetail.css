@@ -16,6 +16,7 @@
 
 .sdc_item_wrap{
   align-items: center;
+  padding: 0.2rem;
 }
 .sdc_item_avatar{
   flex-shrink: 0;
@@ -23,36 +24,37 @@
   width: 0.8rem;
   height: 0.8rem;
   border-radius: 50%;
+  margin-right: 0.2rem;
 }
 .sdc_item_avatar img{
   width: 100%;
   height: 100%;
 }
 .sdc_item_name{
-  color: #D77729;
+  color: #f4be1d;
+  margin-bottom: 0.2rem;
 }
 .sdc_time{
-  text-indent: 0.8rem;
+  text-indent: 0.2rem;
+  color: #b1b1b1;
 }
 
 .sdc_cominput{
   position: fixed;
-  bottom: 0.1rem;
-  left: 0;
+  bottom: 0;
   width: 100%;
+  background-color: #fff ;
 }
 .sdc_cominput input{
   width: 100%;
-  margin-left: 0.1rem;
+  margin:  0 0.1rem;
+  padding: 0.2rem;
 }
 .sdc_cominput_btn{
-  width: 0.9rem;
-  margin: 0 0.2rem;
-  align-self: flex-end;
-  padding: 0.14rem 0.1rem;
-  border-radius: 0.08rem;
-  font-size: 0.24rem;
+  width: 15%;
+  text-align: center;
+  padding: 0.2rem;
+  font-size: 0.28rem;
   color: #fff;
-  background: #07C160;
-  transition: color 0.1s;
+  background: #5d8ef9;
 }

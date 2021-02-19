@@ -6,7 +6,7 @@
     position: -webkit-sticky;
     top: 0;
     padding: 0 0.2rem;
-    height: 0.7rem;
+    height: 1rem;
     background: #fff;
     color: #bbb;
 }
@@ -15,8 +15,8 @@
     height: 0.6rem;
 }
 .ho_logo img{
-    width: 100%;
-    height: 100%;
+    width: 110%;
+    height: 110%;
     margin-top: -0.02rem;
 }
 .ho_header .iconjiahao{
@@ -28,7 +28,7 @@
     text-align: center;
     line-height: 0.4rem;
     font-size: 0.24rem;
-    background: #FBBA1C;
+    background: #5d8ef9;
     color: #FFF;
 }
 .ho_list{
